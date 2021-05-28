@@ -1,0 +1,18 @@
+<div class="row h-100">
+  <div class="col-3 p-0">
+    <div class="container p-3 h-100" style="background-color: #2a9d8f">
+      <ul class="list-group" *ngFor="let task of tasks">
+        <li
+          class="list-group-item"
+          (click)="selectTask(task)"
+          [ngClass]="{ active: task === currentTask }"
+        >
+          {{ task.title }}
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="col h-100 p-3 rounded">
+    <app-task-list [task]="currentTask"></app-task-list>
+  </div>
+</div>

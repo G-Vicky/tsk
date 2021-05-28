@@ -1,0 +1,21 @@
+.f-container {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.add-icon {
+  position: absolute;
+  bottom: 10%;
+  right: 10%;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.add-icon img {
+  border: 1px solid #0275d8;
+  border-radius: 50%;
+  z-index: 100;
+}
+.add-icon img:active {
+  transform: scale(0.98);
+}

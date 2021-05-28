@@ -1,0 +1,23 @@
+.container {
+  font-family: "Poppins", sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+li {
+  cursor: pointer;
+  background-color: #e4efe7;
+}
+li:active {
+  transform: scale(0.98);
+}
+
+.active {
+  color: white;
+  background-color: #34656d;
+  border: none;
+  outline: none;
+}

@@ -1,0 +1,15 @@
+<div class="container h-100 p-2">
+  <div *ngFor="let item of task.items">
+    <div class="card m-2">
+      <div
+        class="card-body"
+        [ngStyle]="{
+          'text-decoration': item.completed ? 'line-through' : 'none'
+        }"
+        (click)="toggleComplete(item)"
+      >
+        {{ task.title }}
+      </div>
+    </div>
+  </div>
+</div>

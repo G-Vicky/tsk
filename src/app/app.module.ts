@@ -8,9 +8,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './components/login/login.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { TasksComponent } from './components/tasks/tasks.component';
+import { TaskGroupComponent } from './components/tasks/task-group/task-group.component';
+import { TaskListComponent } from './components/tasks/task-list/task-list.component';
 
 @NgModule({
-  declarations: [AppComponent, LoginComponent, NavbarComponent],
+  declarations: [AppComponent, LoginComponent, NavbarComponent, TasksComponent, TaskGroupComponent, TaskListComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

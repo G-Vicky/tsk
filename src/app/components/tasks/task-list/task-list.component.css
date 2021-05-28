@@ -1,0 +1,15 @@
+.container {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+}
+
+.card {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  cursor: pointer;
+  background-color: #e4efe7;
+}
+
+.card:active {
+  transform: scale(0.98);
+}
