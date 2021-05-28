@@ -1,0 +1,38 @@
+.f-container {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+span {
+  font-family: "Roboto", sans-serif;
+}
+input {
+  border: none;
+  letter-spacing: 1px;
+  border-radius: 0;
+  border-bottom: 0.5px solid #0275d8;
+}
+
+input:focus {
+  outline: 0;
+  box-shadow: none;
+}
+
+.btn-submit {
+  letter-spacing: 1px;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.btn:focus {
+  outline: 0;
+  box-shadow: none;
+}
+@media only screen and (max-width: 768px) {
+  .c-form {
+    width: 800px;
+    min-width: 350px;
+  }
+}
